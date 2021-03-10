@@ -1,0 +1,32 @@
+.big-button{
+    background-color: #8357c5;
+    border: none;
+    border-bottom: .6rem solid darken(#8357c5, 10%);
+    color: white;
+    font-size: 3.2rem;
+    width: 100%;
+    margin-bottom: 1.6rem;
+    padding: 2.4rem;
+}
+
+.big-button:disabled{
+    opacity: 0.5;
+}
+
+//smaller button
+.button{
+    background: #8357c5;
+    border-bottom: .3rem solid darken(#8357c5, 10%);
+    border:none;
+    color: #a5afd7;
+    font-weight: 500;
+    padding: 1.2rem;
+
+}
+
+.button--link{
+    background: none;
+    border:none;
+    color: #a5afd7;
+    padding: 0;
+}
